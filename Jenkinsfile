@@ -1,13 +1,14 @@
-pipeline
-{
+pipeline {
     agent any
-        stages{
-            stage{
-                steps{
-                    script{
-                        echo "welcome to PAC Class"
-                    }
+    stages {
+        stage {"this is my first file"}{
+            steps {
+                script {
+                    echo "hi welecome to PAC tests"
                 }
             }
+
         }
+
+    }
 }
